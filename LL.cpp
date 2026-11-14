@@ -60,6 +60,10 @@ int main() {
     Node* y = new Node(arr[0], nullptr);
     cout << y;
     cout << y->data;
+
+    // C++ automatically identifies which constructor to call based on the arguments you provide.
+    // This is called compile-time polymorphism.
+
     */
 
 
@@ -87,3 +91,6 @@ int main() {
     cout << y;
     cout << y->data; // Printing the value 2
     */
+
+
+// Constructor must be inside the Node structure, not inside main(). 
