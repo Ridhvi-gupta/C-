@@ -90,7 +90,7 @@ int main() {
     Node* y = new Node(arr[0], nullptr);
     cout << y;
     cout << y->data; // Printing the value 2
-    */
+ */
 
 
 // Constructor must be inside the Node structure, not inside main(). 
