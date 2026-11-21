@@ -47,6 +47,7 @@ int main() {
     vector<int> arr = {2, 5, 8, 7};
 
     // Creating a new node with only the data, and the next pointer will be automatically set to null
+    
     Node* y = new Node(arr[0]); // This and automatically assume it to ba a null pointer
     cout << y;
         Node(int data1) {
